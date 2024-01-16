@@ -11,7 +11,7 @@ A shift register is useful because it frees digital pins. Othervise this setup w
 
 The digits are serialized and send to the shift register. The register works as a deserializer and drives the 7 segment leds with its parralel outputs.
 
-Ardunio pins can sink at most 20mA. Therefore, current limiting resistors less than 270 ohms are not recommeded. 
+Ardunio digital I/O pins can sink at most 20mA. Therefore, current limiting resistors less than 270 ohms are not recommeded. 
 
 The schematic is show below:
 
